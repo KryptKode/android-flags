@@ -1,2 +1,1 @@
-<manifest package="be.billington.android.flags"
-          xmlns:android="http://schemas.android.com/apk/res/android"/>
+<manifest package="com.kryptkode.flags" />
