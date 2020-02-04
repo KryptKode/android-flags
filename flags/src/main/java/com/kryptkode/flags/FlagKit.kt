@@ -3,7 +3,7 @@ package com.kryptkode.flags
 import android.content.Context
 import android.content.res.Resources
 import android.graphics.drawable.Drawable
-import androidx.core.content.ContextCompat
+import androidx.appcompat.content.res.AppCompatResources
 import java.util.*
 
 
@@ -29,7 +29,7 @@ class FlagKit (private val context: Context) {
         val resName = "flag_${countryCode.toLowerCase(Locale.US)}"
         return try {
             val resourceId: Int = resources.getIdentifier(resName, "drawable", context.packageName)
-            ContextCompat.getDrawable(context, resourceId)
+            AppCompatResources.getDrawable(context, resourceId)
         }catch (e: Resources.NotFoundException){
             null
         }
