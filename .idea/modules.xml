@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/android-flags.iml" filepath="$PROJECT_DIR$/android-flags.iml" />
-      <module fileurl="file://$PROJECT_DIR$/flags/flags.iml" filepath="$PROJECT_DIR$/flags/flags.iml" />
+      <module fileurl="file://$PROJECT_DIR$/android-flags.iml" filepath="$PROJECT_DIR$/android-flags.iml" group="android-flags" />
+      <module fileurl="file://$PROJECT_DIR$/flags/flags.iml" filepath="$PROJECT_DIR$/flags/flags.iml" group="android-flags/flags" />
     </modules>
   </component>
 </project>
